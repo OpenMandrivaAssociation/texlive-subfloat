@@ -56,6 +56,7 @@ captions and numbering.
 %doc %{_texmfdistdir}/source/latex/subfloat/Makefile
 %doc %{_texmfdistdir}/source/latex/subfloat/subfloat.dtx
 %doc %{_texmfdistdir}/source/latex/subfloat/subfloat.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -66,3 +67,5 @@ captions and numbering.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
