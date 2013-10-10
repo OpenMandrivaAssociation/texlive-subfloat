@@ -1,12 +1,12 @@
-# revision 15878
+# revision 29349
 # category Package
 # catalog-ctan /macros/latex/contrib/subfloat
-# catalog-date 2008-06-17 13:09:54 +0200
+# catalog-date 2012-05-06 01:06:11 +0200
 # catalog-license lppl
 # catalog-version 2.14
 Name:		texlive-subfloat
 Version:	2.14
-Release:	2
+Release:	3
 Summary:	Sub-numbering for figures and tables
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/subfloat
@@ -56,17 +56,3 @@ captions and numbering.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 2.14-2
-+ Revision: 756308
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 2.14-1
-+ Revision: 719606
-- texlive-subfloat
-- texlive-subfloat
-- texlive-subfloat
-- texlive-subfloat
-
