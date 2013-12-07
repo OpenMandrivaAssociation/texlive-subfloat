@@ -6,7 +6,7 @@
 # catalog-version 2.14
 Name:		texlive-subfloat
 Version:	2.14
-Release:	5
+Release:	6
 Summary:	Sub-numbering for figures and tables
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/subfloat
