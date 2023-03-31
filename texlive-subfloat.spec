@@ -1,6 +1,6 @@
 Name:		texlive-subfloat
 Version:	29349
-Release:	1
+Release:	2
 Summary:	Sub-numbering for figures and tables
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/subfloat
