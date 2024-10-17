@@ -3,7 +3,7 @@ Version:	29349
 Release:	2
 Summary:	Sub-numbering for figures and tables
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/subfloat
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/subfloat
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/subfloat.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/subfloat.doc.r%{version}.tar.xz
